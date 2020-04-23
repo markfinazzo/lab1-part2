@@ -1,0 +1,162 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 16px;
+    margin: 0px;
+    margin-block-start: 0px;
+}
+
+ul{
+    margin: 0px;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.info{
+    color: #69696a;
+
+}
+
+.client{
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    width: 90%;
+}
+
+h2{
+    font-size: 25px;
+    border-radius: 12px;
+    margin: 0px;
+}
+
+
+p{
+    padding-left: 15px;
+    border: 2px;
+    border: #000000;
+    width: 90%;
+
+}
+
+.rule{
+    border-width: 2px;
+    border-style: solid;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+h3{
+    font-size: 16px;
+    color: #FFF;
+    background-color: #000000;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px;
+    width: 90%;
+}
+
+.dots{
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        font-size: 0.5rem;
+    }
+
+    .list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .parent{
+        position: relative;
+    }
+
+    h3{
+        width: 20%;
+        position: fixed;
+        left: 50%;
+        bottom: 0px;
+    }
+
+    .header1{
+        justify-content: space-between;
+    }
+
+    p{
+        padding-left: 15px;
+        border: 2px;
+        border: #000000;
+        width: 50%;
+    }
+
+    .dots{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 70%;    
+    }
+
+    .dot1 {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.75;
+        top: 10px;
+    }
+
+    .dot2{
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.75;
+        top: 25px;
+        left: 110px;
+    }
+
+    .dot3{
+        position: absolute;
+        height: 125px;
+        width: 125px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.75;
+        top: 90px;
+        left: 90px;
+    }
+}
+
